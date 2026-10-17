@@ -1,0 +1,32 @@
+
+# Entorno virtual
+.venv/
+venv/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+
+# Permitir plantillas de configuración sin secretos
+!.env.example
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+
+# Configuración del editor
+.vscode/
+
+# Archivos temporales y logs
+*.log
+*.tmp
+
+# Archivos generados
+dist/
+build/
+*.spec
+
+# Base de datos local SQLite
+*.db
+*.sqlite
+*.sqlite3
