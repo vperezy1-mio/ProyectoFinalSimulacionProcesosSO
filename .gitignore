@@ -30,3 +30,34 @@ build/
 *.db
 *.sqlite
 *.sqlite3
+
+
+
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Variables de entorno y secretos
+.env
+.env.*
+
+# Permitir plantilla sin credenciales
+!.env.example
+
+# Pruebas y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editores
+.vscode/
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
